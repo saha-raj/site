@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="pandoc" name="generator" />
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
+  <title>Raj Saha | Photography</title>
+  <link href="css-js/style-portfolio.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- <nav id="top-navigation">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav> -->
+  </header>
+  <div class="container">
+    <nav id="top-navigation">
+      <ul>
+        <li><a href="about.html">about me</a></li>
+        <li><a href="2d-art.html">2d-art</a></li>
+        <li><a href="photography.html" class="active-link">photography</a></li>
+        <li><a href="digital.html">digital</a></li>
+        <li><a href="writings.html">writings</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Photography / Film & Digital</h1>
+      <div class="grid">
+        <figure class="grid-item"><img id="art1" src="images/photos/01.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/02.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/03.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/04.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/05.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/06.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Canon 60D</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/07.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/08.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/09.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/10.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/11.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/12.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/13.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Canon 60D</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/14.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/15.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/16.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/17.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Mamiya 645 / 120mm film / digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/18.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Canon 60D</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/19.png" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Bronica SQ-Ai Medium Format Camera, digital scan</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/20.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Canon 60D</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/photos/21.jpg" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Canon 60D</figcaption></figure>
+
+
+        <!-- Add more images as needed -->
+      </div>
+
+    </main>
+    <footer>
+      Copyright &copy; 2023 Raj Saha
+    </footer>
+  </div>
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <!-- <div id="media"></div> -->
+    <video class="modal-content" id="vid01" controls></video>
+    <div id="popupcaption" style="color: white; text-align: center;"></div>
+  </div>
+  <!-- <footer>
+    Copyright &copy; 2023 My Name
+  </footer> -->
+  <script src="../css-js/portfolio.js"></script>
+</body>
+
+</html>
