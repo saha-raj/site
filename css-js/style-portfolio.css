@@ -113,6 +113,27 @@ main {
     font-size: 1em;
 }
 
+.body-links {
+    color: #0077B5; /* LinkedIn's brand color, can be changed to any color you want */
+    text-decoration: none; /* Removes the default underline */
+}
+
+/* Changes the color of the link when you hover over it */
+.body-links:hover {
+    color: #005582;
+}
+
+/* Changes the color of the link when you click on it */
+.body-links:active {
+    color: #4b110f;
+}
+
+/* Changes the color of the link once it has been clicked (visited) */
+.body-links:visited {
+    /* color: #744484; */
+}
+
+
 /* .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
