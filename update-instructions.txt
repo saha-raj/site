@@ -1,0 +1,17 @@
+- Check the Status
+git status
+
+- Pull Latest Changes (If needed): It's a good practice to pull the latest changes from GitHub to make sure your local repository is up-to-date. Type:
+git pull origin main
+
+- Add Changes:Add all the new or modified files to the staging area. If you want to add all changes, type:
+git add .
+
+If you want to add specific files, replace . with the file paths.
+Commit the Changes:
+
+- Commit the changes with a message describing what you have changed. For example:
+git commit -m "Update site content"
+
+- Push the Changes: Push the changes to GitHub. This will also update your GitHub Pages site. Type:
+git push origin main
