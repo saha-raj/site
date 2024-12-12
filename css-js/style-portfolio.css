@@ -293,3 +293,21 @@ footer {
     column-count: 4;
   }
 }
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    break-inside: avoid;
+    margin-bottom: 2rem;
+}
+
+.project-link:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in-out;
+}
+
+.project-link .grid-item {
+    margin-bottom: 0;
+}

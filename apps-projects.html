@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDMTB3BY55"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RDMTB3BY55');
+  </script>
+  <meta charset="utf-8" />
+  <meta content="pandoc" name="generator" />
+  <meta content="width=device-width, initial-scale=1.0, user-scalable=yes" name="viewport" />
+  <title>Raj Saha | Portfolio</title>
+  <link href="css-js/style-portfolio.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- <nav id="top-navigation">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">portfolio</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav> -->
+  </header>
+  <div class="container">
+    <nav id="top-navigation">
+      <ul>
+        <li><a href="index.html" >about</a></li>
+        <li><a href="generative.html">gen</a></li>
+        <li><a href="2d-art.html" >drawings</a></li>
+        <li><a href="photography.html" >photography</a></li>
+        <li><a href="visual-stories.html">visual stories</a></li>
+        <li><a href="apps-projects.html" class="active-link">apps & projects</a></li>
+        <!-- <li><a href="writings.html">writings</a></li> -->
+      </ul>
+    </nav>
+    <main>
+      <h1>Apps // Projects</h1>
+      <div class="grid">
+        <!-- <figure class="grid-item"><img id="art1" src="images/apps-projects/logobot.png" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">A modern implementation of the Logo Language</figcaption></figure>
+        <figure class="grid-item"><img id="art1" src="images/apps-projects/tile-transform.png" onclick="openModal(this);" style="width:100%" /><figcaption class="img-caption">Transform images to Tiles</figcaption></figure> -->
+        <a href="https://saha-raj.github.io/logobot/index.html" class="project-link">
+          <figure class="grid-item"><img id="art1" src="images/apps-projects/logobot.png" style="width:100%" /><figcaption class="img-caption">A modern implementation of the Logo Language</figcaption></figure>
+        </a>
+        <a href="https://saha-raj.github.io/tile-pattern-app/" class="project-link">
+          <figure class="grid-item"><img id="art1" src="images/apps-projects/tile-transform.png" style="width:100%" /><figcaption class="img-caption">Transform images to Tiles</figcaption></figure>
+        </a>
+        <!-- Add more images as needed -->
+      </div>
+
+    </main>
+    <footer>
+      Copyright &copy; 2023 Raj Saha
+    </footer>
+  </div>
+  <div id="modal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <!-- <div id="media"></div> -->
+    <video class="modal-content" id="vid01" controls></video>
+    <div id="popupcaption" style="color: white; text-align: center;"></div>
+  </div>
+
+  <!-- <footer>
+    Copyright &copy; 2023 My Name
+  </footer> -->
+  <script src="css-js/portfolio.js"></script>
+</body>
+
+</html>
